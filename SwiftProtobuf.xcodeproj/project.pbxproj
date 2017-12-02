@@ -10,6 +10,9 @@
 		0353A1CE1E81623B00067996 /* any.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41BA43F1E7AE4AC004F6E95 /* any.pb.swift */; };
 		0353A1CF1E81624F00067996 /* any.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41BA43F1E7AE4AC004F6E95 /* any.pb.swift */; };
 		0353A1D01E81625400067996 /* any.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41BA43F1E7AE4AC004F6E95 /* any.pb.swift */; };
+		5AA505E91FD30246005883E9 /* unittest_swift_enum_proto3.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA505E71FD30200005883E9 /* unittest_swift_enum_proto3.pb.swift */; };
+		5AA505EA1FD30247005883E9 /* unittest_swift_enum_proto3.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA505E71FD30200005883E9 /* unittest_swift_enum_proto3.pb.swift */; };
+		5AA505EB1FD30248005883E9 /* unittest_swift_enum_proto3.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA505E71FD30200005883E9 /* unittest_swift_enum_proto3.pb.swift */; };
 		8DC1CA0D1E54B80800CA8A26 /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC1CA0C1E54B80800CA8A26 /* MathUtils.swift */; };
 		8DC1CA0F1E54B81400CA8A26 /* TimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC1CA0E1E54B81400CA8A26 /* TimeUtils.swift */; };
 		9C0B366B1E5FAB910094E128 /* JSONMapEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0B366A1E5FAB910094E128 /* JSONMapEncodingVisitor.swift */; };
@@ -672,6 +675,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AA505E71FD30200005883E9 /* unittest_swift_enum_proto3.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = unittest_swift_enum_proto3.pb.swift; sourceTree = "<group>"; };
 		8DC1CA0C1E54B80800CA8A26 /* MathUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathUtils.swift; sourceTree = "<group>"; };
 		8DC1CA0E1E54B81400CA8A26 /* TimeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeUtils.swift; sourceTree = "<group>"; };
 		9C0B366A1E5FAB910094E128 /* JSONMapEncodingVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONMapEncodingVisitor.swift; sourceTree = "<group>"; };
@@ -1119,6 +1123,7 @@
 				__PBXFileRef_Tests/ProtobufTests/unittest_swift_cycle.pb.swift /* unittest_swift_cycle.pb.swift */,
 				__PBXFileRef_Tests/ProtobufTests/unittest_swift_enum_optional_default.pb.swift /* unittest_swift_enum_optional_default.pb.swift */,
 				__PBXFileRef_Tests/ProtobufTests/unittest_swift_enum.pb.swift /* unittest_swift_enum.pb.swift */,
+				5AA505E71FD30200005883E9 /* unittest_swift_enum_proto3.pb.swift */,
 				__PBXFileRef_Tests/ProtobufTests/unittest_swift_extension.pb.swift /* unittest_swift_extension.pb.swift */,
 				F4D315431DEC8110005D4A80 /* unittest_swift_extension2.pb.swift */,
 				F4D315441DEC8110005D4A80 /* unittest_swift_extension3.pb.swift */,
@@ -1325,6 +1330,7 @@
 			files = (
 				F4151F671EF3197200EEA00B /* Test_SimpleExtensionMap.swift in Sources */,
 				9C8CDA1D1D7A28F600E207CA /* any_test.pb.swift in Sources */,
+				5AA505EA1FD30247005883E9 /* unittest_swift_enum_proto3.pb.swift in Sources */,
 				9C8CDA1E1D7A28F600E207CA /* conformance.pb.swift in Sources */,
 				9C8CDA1F1D7A28F600E207CA /* descriptor.pb.swift in Sources */,
 				9C8CDA211D7A28F600E207CA /* map_unittest.pb.swift in Sources */,
@@ -1609,6 +1615,7 @@
 			files = (
 				F4151F661EF3197100EEA00B /* Test_SimpleExtensionMap.swift in Sources */,
 				__src_cc_ref_Tests/ProtobufTests/any_test.pb.swift /* any_test.pb.swift in Sources */,
+				5AA505E91FD30246005883E9 /* unittest_swift_enum_proto3.pb.swift in Sources */,
 				__src_cc_ref_Tests/ProtobufTests/conformance.pb.swift /* conformance.pb.swift in Sources */,
 				9C2F237A1D77807E008524F2 /* descriptor.pb.swift in Sources */,
 				__src_cc_ref_Tests/ProtobufTests/map_unittest.pb.swift /* map_unittest.pb.swift in Sources */,
@@ -1809,6 +1816,7 @@
 			files = (
 				F4151F681EF3197300EEA00B /* Test_SimpleExtensionMap.swift in Sources */,
 				F44F93BD1DAEA8C900BC5B85 /* Test_FieldOrdering.swift in Sources */,
+				5AA505EB1FD30248005883E9 /* unittest_swift_enum_proto3.pb.swift in Sources */,
 				F44F93C21DAEA8C900BC5B85 /* Test_Map_JSON.swift in Sources */,
 				F44F93DD1DAEA8C900BC5B85 /* unittest_lite.pb.swift in Sources */,
 				F44F93B31DAEA8C900BC5B85 /* Test_Any.swift in Sources */,
